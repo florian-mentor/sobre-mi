@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Fabián Florian</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .header, .footer {
+      background: linear-gradient(45deg, #343a40, #6c757d);
+      color: white;
+    }
+    .section-light {
+      background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+    }
+    .section-dark {
+      background: linear-gradient(45deg, #343a40, #495057);
+      color: white;
+    }
+    .tech-icon {
+      max-width: 100px;
+      max-height: 100px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo">Fabián Florian</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#sobre-mi">Sobre Mí</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#tecnologias">Tecnologías</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#portafolio">Portafolio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#testimonios">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección Sobre Mí -->
+  <section id="sobre-mi" class="section-light py-5">
+    <div class="container text-center">
+      <h2>Sobre Mí</h2>
+      <img src="./imgs/sobre-mi.avif" alt="Foto de Fabián" class="rounded-circle mb-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate lacus in viverra pretium.</p>
+      <p>Fusce fermentum neque vel neque dictum, et viverra ipsum luctus. Etiam ut felis at dolor placerat vulputate.</p>
+    </div>
+  </section>
+
+  <!-- Sección Tecnologías -->
+  <section id="tecnologias" class="section-dark py-5">
+    <div class="container text-center">
+      <h2>Tecnologías que domino</h2>
+      <div class="d-flex justify-content-around align-items-center flex-wrap">
+        <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/html5-3-502526.png?f=webp&w=256" alt="HTML" class="tech-icon">
+        <img src="https://cdn-icons-png.freepik.com/256/732/732190.png?semt=ais_hybrid" alt="CSS" class="tech-icon">
+        <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/javascript-2752148-2284965.png?f=webp&w=256" alt="JavaScript" class="tech-icon">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-3030235.png?f=webp&w=256" alt="React" class="tech-icon">
+        <img src="https://seeklogo.com/images/M/mysql-logo-B047FB7790-seeklogo.com.png" alt="MySQL" class="tech-icon">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Portafolio -->
+  <section id="portafolio" class="section-light py-5">
+    <div class="container text-center">
+      <h2>Mi Portafolio</h2>
+      <div class="row g-4">
+        <!-- Tarjeta 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" class="card-img-top" alt="Producto 1">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1</h5>
+              <p class="card-text">Breve descripción del proyecto 1.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Repite las siguientes tarjetas según sea necesario -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://static-cse.canva.com/blob/1105476/Lead_Website-maker2x.jpg" class="card-img-top" alt="Producto 2">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2</h5>
+              <p class="card-text">Breve descripción del proyecto 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://d1ih8jugeo2m5m.cloudfront.net/2022/07/sitios-web-blog-1024x577.jpg" class="card-img-top" alt="Producto 3">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 3</h5>
+              <p class="card-text">Breve descripción del proyecto 3.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Segunda fila de tarjetas -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://53.fs1.hubspotusercontent-na1.net/hubfs/53/tipossitiosuber.jpeg" class="card-img-top" alt="Producto 4">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 4</h5>
+              <p class="card-text">Breve descripción del proyecto 4.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://evendidigital.com/wp-content/uploads/2021/06/landing-mandaryservir-768x610.jpg" class="card-img-top" alt="Producto 5">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 5</h5>
+              <p class="card-text">Breve descripción del proyecto 5.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://scottmax.com/wp-content/uploads/2023/05/image-248-1024x531.png" class="card-img-top" alt="Producto 6">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 6</h5>
+              <p class="card-text">Breve descripción del proyecto 6.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Testimonios -->
+  <section id="testimonios" class="section-dark py-5">
+    <div class="container text-center">
+      <h2>Testimonios de mis clientes</h2>
+      <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://w7.pngwing.com/pngs/384/158/png-transparent-person-logo-computer-icons-customer-service-favicon-desktop-icon-customers-drawing-miscellaneous-blue-text-thumbnail.png" class="rounded-circle mb-4" alt="Cliente 1">
+            <blockquote class="blockquote">
+              <p>"Fabián hizo un trabajo excepcional en nuestro proyecto, muy recomendable."</p>
+              <footer class="blockquote-footer">Cliente 1</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <img src="https://w7.pngwing.com/pngs/384/158/png-transparent-person-logo-computer-icons-customer-service-favicon-desktop-icon-customers-drawing-miscellaneous-blue-text-thumbnail.png" class="rounded-circle mb-4" alt="Cliente 2">
+            <blockquote class="blockquote">
+              <p>"Gran comunicación y habilidades técnicas, estamos muy contentos."</p>
+              <footer class="blockquote-footer">Cliente 2</footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <img src="https://w7.pngwing.com/pngs/384/158/png-transparent-person-logo-computer-icons-customer-service-favicon-desktop-icon-customers-drawing-miscellaneous-blue-text-thumbnail.png" class="rounded-circle mb-4" alt="Cliente 3">
+            <blockquote class="blockquote">
+              <p>"Un desarrollador de confianza, entrega a tiempo y con calidad."</p>
+              <footer class="blockquote-footer">Cliente 3</footer>
+            </blockquote>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="section-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="correo" required>
+        </div>
+        <div class="mb-3">
+          <label for="celular" class="form-label">Número de Celular</label>
+          <input type="tel" class="form-control" id="celular" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 text-center">
+    <div class="container">
+      <p>&copy; 2024 Fabián Florian. Todos los derechos reservados.</p>
+      <div>
+        <a href="#" class="text-white me-3">Facebook</a>
+        <a href="#" class="text-white me-3">Twitter</a>
+        <a href="#" class="text-white me-3">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
